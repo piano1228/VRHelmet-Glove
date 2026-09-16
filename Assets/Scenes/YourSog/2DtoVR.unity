@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2485,8 +2485,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u4ECA\u304B\u3089HMD\u306E\u88C5\u7740\u3068\nVR\u30B0\u30ED\u30FC\u30D6\u306E\u30AD\u30E3\u30EA\u30D6\u30EC\u30FC\u30B7\u30E7\u30F3\u3092\u884C\u3044\u307E\u3059\n\u4E95\u5143\u3092\u304A\u547C\u3073\u304F\u3060\u3055\u3044"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4478e66ba0f2bb34b9c9422719c57425, type: 2}
-  m_sharedMaterial: {fileID: -3781663745010784872, guid: 4478e66ba0f2bb34b9c9422719c57425,
+  m_fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
+  m_sharedMaterial: {fileID: -859636975422421200, guid: 95cb79083abc2fc47bac494b32a42c2b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2610,7 +2610,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3781663745010784872, guid: 4478e66ba0f2bb34b9c9422719c57425, type: 2}
+  - {fileID: -859636975422421200, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

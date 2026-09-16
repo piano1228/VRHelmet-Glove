@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Enter
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d932d52ee0d6b824b9d4e2c8bb98841a, type: 2}
-  m_sharedMaterial: {fileID: 3079785086231966222, guid: d932d52ee0d6b824b9d4e2c8bb98841a,
+  m_fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
+  m_sharedMaterial: {fileID: -859636975422421200, guid: 95cb79083abc2fc47bac494b32a42c2b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -335,8 +335,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Your Song
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d932d52ee0d6b824b9d4e2c8bb98841a, type: 2}
-  m_sharedMaterial: {fileID: 3079785086231966222, guid: d932d52ee0d6b824b9d4e2c8bb98841a,
+  m_fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
+  m_sharedMaterial: {fileID: -859636975422421200, guid: 95cb79083abc2fc47bac494b32a42c2b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -410,7 +410,7 @@ MonoBehaviour:
     linkCount: 0
     lineCount: 1
     pageCount: 1
-    materialCount: 2
+    materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}

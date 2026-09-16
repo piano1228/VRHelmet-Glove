@@ -238,7 +238,7 @@ MonoBehaviour:
   offset: {x: 2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u541B\u304C\u50D5\u306E\u540D\u524D\u3092\u547C\u3093\u3060"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -255,8 +255,8 @@ MonoBehaviour:
   - 0.1825
   - 0.1825
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1001 &6058846
@@ -415,7 +415,7 @@ MonoBehaviour:
   offset: {x: -2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u8272\u304C\u3064\u3044\u305F"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -427,8 +427,8 @@ MonoBehaviour:
   - 0.1825
   - 0.365
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1 &32834907
@@ -528,7 +528,7 @@ MonoBehaviour:
   offset: {x: 2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u6163\u308C\u306A\u3044\u7B11\u9854\u3092\u307F\u305B\u3064\u3051\u308B"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -547,8 +547,8 @@ MonoBehaviour:
   - 0.1825
   - 0.1825
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1001 &49265043
@@ -608,40 +608,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 066778df4818f484880d7c9a98b91618, type: 3}
---- !u!21 &51083676
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &54551377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2944,7 +2910,7 @@ MonoBehaviour:
   offset: {x: 2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u3053\u3093\u306A\u4E16\u754C\u3082"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -2957,8 +2923,8 @@ MonoBehaviour:
   - 0.1825
   - 0.1825
   - 0.365
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!4 &285172427 stripped
@@ -4129,7 +4095,7 @@ MonoBehaviour:
   offset: {x: 2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u541B\u306E\u8A00\u8449\u3067"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -4141,8 +4107,8 @@ MonoBehaviour:
   - 0.1825
   - 0.365
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!4 &426872901 stripped
@@ -4184,7 +4150,7 @@ MonoBehaviour:
   offset: {x: -2, y: 1.5, z: 13}
   destroyAfter: 10
   message: "\u751F\u304D\u3066\u3044\u304F\u3053\u3068\u3082\u5ACC\u306B\u306A\u3063\u305F\u3068\u304D\u306B"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -4207,8 +4173,8 @@ MonoBehaviour:
   - 0.1825
   - 0.1825
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!4 &432419208
@@ -5599,7 +5565,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Sample text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: -3781663745010784872, guid: 0da0414b2a135a34888436ddea9d3a24,
     type: 2}
   m_fontSharedMaterials: []
@@ -5817,7 +5783,7 @@ MonoBehaviour:
   offset: {x: -2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u541B\u3092\u60F3\u3063\u305F"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -5829,8 +5795,8 @@ MonoBehaviour:
   - 0.1825
   - 0.365
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1 &551223116
@@ -6262,7 +6228,7 @@ MonoBehaviour:
   offset: {x: 2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u541B\u306E\u5F37\u3055\u3092"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -6274,8 +6240,8 @@ MonoBehaviour:
   - 0.1825
   - 0.365
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1001 &623404010
@@ -6516,7 +6482,7 @@ MonoBehaviour:
   offset: {x: -2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u50D5\u3089\u3092\u5ACC\u3046\u5916\u91CE\u306E\u58F0\u3082"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -6533,8 +6499,8 @@ MonoBehaviour:
   - 0.1825
   - 0.1825
   - 0.365
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1 &649368416
@@ -7151,7 +7117,7 @@ MonoBehaviour:
   offset: {x: -2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u3044\u3044\u3068\u601D\u3048\u305F"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -7164,8 +7130,8 @@ MonoBehaviour:
   - 0.1825
   - 0.365
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1 &693338134
@@ -7215,7 +7181,7 @@ MonoBehaviour:
   offset: {x: 2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u5F3E\u304D\u98DB\u3070\u3057\u305D\u3046\u306A\u76EE\u3057\u3066"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -7233,8 +7199,8 @@ MonoBehaviour:
   - 0.365
   - 0.365
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1001 &694713071
@@ -8550,7 +8516,7 @@ MonoBehaviour:
   offset: {x: 2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u8010\u3048\u308B\u3060\u3051\u305D\u3093\u306A\u65E5\u3005\u3060\u3063\u305F"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -8570,8 +8536,8 @@ MonoBehaviour:
   - 0.1825
   - 0
   - 0.365
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!4 &819060749 stripped
@@ -10471,7 +10437,7 @@ MonoBehaviour:
   offset: {x: 2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u663C\u4F11\u307F\u96D1\u8E0F\u306E\u4E2D"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -10485,8 +10451,8 @@ MonoBehaviour:
   - 0.365
   - 0.73
   - 0.365
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1001 &975814829
@@ -10558,12 +10524,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 51083676}
+      objectReference: {fileID: 1040280930}
     - target: {fileID: 33445139971948054, guid: 76d599f0a7ea26c48ad727e9690b88c4,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 2062424541}
+      objectReference: {fileID: 2133588926}
     - target: {fileID: 81783755529907288, guid: 76d599f0a7ea26c48ad727e9690b88c4,
         type: 3}
       propertyPath: m_Enabled
@@ -11053,7 +11019,7 @@ MonoBehaviour:
   offset: {x: -2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u541B\u304C\u50D5\u306E\u4E16\u754C\u3092\u5F69\u3063\u305F"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -11070,8 +11036,8 @@ MonoBehaviour:
   - 0.1825
   - 0.365
   - 0.365
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1 &1013615098
@@ -11500,6 +11466,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1039112891}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1040280930
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1045750092
 GameObject:
   m_ObjectHideFlags: 0
@@ -11746,7 +11746,7 @@ MonoBehaviour:
   offset: {x: -2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u50D5\u3092\u8AAD\u3093\u3067\u304F\u308C\u3066\u3044\u308B\u541B\u306B"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -11765,8 +11765,8 @@ MonoBehaviour:
   - 0.1825
   - 0.1825
   - 0.5475
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1 &1092295441
@@ -13875,7 +13875,7 @@ MonoBehaviour:
   offset: {x: 2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u3053\u306E\u6C17\u6301\u3061\u3092\u4F1D\u3048\u308B\u305F\u3081\u306B\u50D5\u306F"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -13896,8 +13896,8 @@ MonoBehaviour:
   - 0.365
   - 0.365
   - 0.73
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!4 &1262300419
@@ -14982,7 +14982,7 @@ MonoBehaviour:
   offset: {x: -2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u541B\u304C\u50D5\u306E\u5FC3\u3092\u57CB\u3081\u3066\u304F\u308C\u305F"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -15001,8 +15001,8 @@ MonoBehaviour:
   - 0.365
   - 0.365
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1001 &1338437182
@@ -16512,7 +16512,7 @@ MonoBehaviour:
   offset: {x: -2, y: 1.5, z: 13}
   destroyAfter: 10
   message: "\u541B\u3068\u8A71\u3057\u3066\u304D\u305F\u3059\u3079\u3066\u304C"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -16530,8 +16530,8 @@ MonoBehaviour:
   - 0.365
   - 0.365
   - 0.365
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1001 &1468900526
@@ -16638,7 +16638,7 @@ MonoBehaviour:
   offset: {x: 2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u541B\u3092\u898B\u3066\u305F"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -16650,8 +16650,8 @@ MonoBehaviour:
   - 0.1825
   - 0.365
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1001 &1491794995
@@ -16914,7 +16914,7 @@ MonoBehaviour:
   offset: {x: -2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u541B\u304C\u304F\u308C\u305F"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -16926,8 +16926,8 @@ MonoBehaviour:
   - 0.1825
   - 0.365
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1 &1511745361
@@ -17508,7 +17508,7 @@ MonoBehaviour:
   offset: {x: 2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u50D5\u306E\u4E0D\u5B89\u3092\u5168\u90E8\u6D88\u3057\u3066\u304F\u308C\u305F"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -17529,8 +17529,8 @@ MonoBehaviour:
   - 0.365
   - 0.1825
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!4 &1537109289 stripped
@@ -22808,7 +22808,7 @@ MonoBehaviour:
   offset: {x: -2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u305D\u3093\u306A\u541B\u306B\u3064\u3089\u308C\u50D5\u3082"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -22825,8 +22825,8 @@ MonoBehaviour:
   - 0.1825
   - 0.1825
   - 0.365
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1 &1649083036
@@ -25019,7 +25019,7 @@ MonoBehaviour:
   offset: {x: 2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u4ECA\u3082\u524D\u3092\u5411\u3051\u308B\u7406\u7531\u306A\u3093\u3060"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -25038,8 +25038,8 @@ MonoBehaviour:
   - 0.73
   - 0.365
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1 &1830196753
@@ -25089,7 +25089,7 @@ MonoBehaviour:
   offset: {x: 2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u5C11\u3057\u3060\u3051\u5F37\u304F\u306A\u308C\u305F\u3093\u3060"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -25107,8 +25107,8 @@ MonoBehaviour:
   - 0.1825
   - 0.1825
   - 0.1825
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1001 &1839519497
@@ -26649,7 +26649,7 @@ MonoBehaviour:
   offset: {x: -2, y: 1.5, z: 15}
   destroyAfter: 10
   message: "\u50D5\u3082\u8AB0\u304B\u306B\u3042\u3052\u3089\u308C\u308B\u306E\u304B\u306A"
-  fontAsset: {fileID: 11400000, guid: 0da0414b2a135a34888436ddea9d3a24, type: 2}
+  fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
   fontSize: 5
   colorGradient:
     topLeft: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
@@ -26669,8 +26669,8 @@ MonoBehaviour:
   - 0.1825
   - 0.365
   - 0.365
-  popScale: 1.3
-  popDuration: 0.08
+  popScale: 1.15
+  popDuration: 0.1
   moveDirection: {x: 0, y: 0, z: 0}
   moveSpeed: 2
 --- !u!1001 &1999570408
@@ -27246,169 +27246,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048151250}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!43 &2062424541
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 24
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: 0, y: 0.01, z: 0}
-      m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 28
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 288
-    _typelessdata: 0000c03f0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0.01, z: 0}
-    m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!114 &2078445477 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114628704662426358, guid: eb9e4ef3b00db6444b876c4e1f96e8bb,
@@ -27645,6 +27482,169 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1847748155}
   m_PrefabAsset: {fileID: 0}
+--- !u!43 &2133588926
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0, y: 0.01, z: 0}
+      m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 288
+    _typelessdata: 0000c03f0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0.01, z: 0}
+    m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &5452176520171511771
 PrefabInstance:
   m_ObjectHideFlags: 0

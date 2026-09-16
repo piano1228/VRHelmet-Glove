@@ -26,13 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/YourSog/2DtoVR.unity
     guid: 311990c8b889b1a43b2ab13598861823
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/YourSog/Callibration.unity
     guid: beb5e7b8b1def1c448746fd0d81d5d15
   - enabled: 1
     path: Assets/Scenes/YourSog/MVScene 1.unity
     guid: 9d09e37cf3e8c2c4da817fdaf34dea57
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/YourSog/MVScene.unity
     guid: 74271a5e83463cd4bbec363170b52107
   - enabled: 1
