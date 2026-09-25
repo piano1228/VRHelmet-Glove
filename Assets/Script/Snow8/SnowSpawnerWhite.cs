@@ -6,17 +6,25 @@ public class SnowSpawnerWhite : MonoBehaviour
     [SerializeField] private GameObject snowPrefab;
     [SerializeField] private float respawnTime = 3f;
 
-    public void RespawnSnow(Vector3 position, Quaternion rotation)
+    // Inspectorから再生成位置を指定
+    [SerializeField] private Vector3 respawnPosition;
+
+    // Inspectorから再生成時の回転を指定
+    [SerializeField] private Vector3 respawnRotation;
+
+    public void RespawnSnow()
     {
-        StartCoroutine(RespawnCoroutine(position, rotation));
+        StartCoroutine(RespawnCoroutine());
     }
 
-    private IEnumerator RespawnCoroutine(
-        Vector3 position,
-        Quaternion rotation)
+    private IEnumerator RespawnCoroutine()
     {
         yield return new WaitForSeconds(respawnTime);
 
-        Instantiate(snowPrefab, position, rotation);
+        Instantiate(
+            snowPrefab,
+            respawnPosition,
+            Quaternion.Euler(respawnRotation)
+        );
     }
 }

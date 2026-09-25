@@ -29,12 +29,21 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/YourSog/Callibration.unity
     guid: beb5e7b8b1def1c448746fd0d81d5d15
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/YourSog/MVScene 1.unity
     guid: 9d09e37cf3e8c2c4da817fdaf34dea57
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/YourSog/MVScene.unity
     guid: 74271a5e83463cd4bbec363170b52107
+  - enabled: 1
+    path: Assets/Scenes/YourSog/OnlyWhiteScene/YesVibration.unity
+    guid: 3a55214ddd957674ead773bfe7c882ce
+  - enabled: 1
+    path: Assets/Scenes/YourSog/OnlyWhiteScene/NoVibration.unity
+    guid: 96a517b6739e07a4f9ffa21ae637df9f
+  - enabled: 1
+    path: Assets/Scenes/YourSog/OnlyWhiteScene/8Scene.unity
+    guid: aa8de451a2883c64eb14f684d660ee86
   - enabled: 1
     path: Assets/Scenes/YourSog/VRto2D.unity
     guid: 439176987cbde70418aec024d53fb288
@@ -50,10 +59,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/YourSog/NightTitle.unity
     guid: 1d0ecc205e4d33e4bae1764450a9b98b
-  - enabled: 1
-    path: Assets/Scenes/YourSog/OnlyWhiteScene/YesVibration.unity
-    guid: 3a55214ddd957674ead773bfe7c882ce
-  - enabled: 1
-    path: Assets/Scenes/YourSog/OnlyWhiteScene/NoVibration.unity
-    guid: 96a517b6739e07a4f9ffa21ae637df9f
   m_configObjects: {}

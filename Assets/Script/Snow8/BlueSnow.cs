@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+
 public class BlueSnow : MonoBehaviour
 {
     [SerializeField] private ParticleSystem snoweffectPrefab;
@@ -7,8 +8,6 @@ public class BlueSnow : MonoBehaviour
 
     private SnowSpawnerBlue spawner;
 
-    private bool flag = true;
-
     private void Start()
     {
         spawner = FindObjectOfType<SnowSpawnerBlue>();
@@ -16,17 +15,10 @@ public class BlueSnow : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        // Destroy前に位置・回転を保存
-        Vector3 spawnPosition = transform.position;
-        Quaternion spawnRotation = transform.rotation;
-
         // Spawnerに再生成を依頼
-        spawner.RespawnSnow(
-            spawnPosition,
-            spawnRotation
-        );
+        spawner.RespawnSnow();
 
-        // 雪の結晶自体を削除
-        Destroy(gameObject, 0.001f);
+        // 雪の結晶を削除
+        Destroy(gameObject);
     }
 }

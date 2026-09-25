@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+
 public class WhiteSnow : MonoBehaviour
 {
     [SerializeField] private ParticleSystem snoweffectPrefab;
@@ -43,15 +44,8 @@ public class WhiteSnow : MonoBehaviour
             );
         }
 
-        // Destroy前に位置・回転を保存
-        Vector3 spawnPosition = transform.position;
-        Quaternion spawnRotation = transform.rotation;
-
         // Spawnerに再生成を依頼
-        spawner.RespawnSnow(
-            spawnPosition,
-            spawnRotation
-        );
+        spawner.RespawnSnow();
 
         // 雪の結晶自体を削除
         Destroy(gameObject, 0.001f);

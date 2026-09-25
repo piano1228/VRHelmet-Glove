@@ -10,7 +10,7 @@ public class Dialog : MonoBehaviour
     public TMP_Text diaTMP_Text;
     public TMP_Text text;
 
-
+    public AudioSource audioSourseMoziokuri;
     public AudioSource audioSource;
     public AudioClip typeSE;
     public AudioClip diaSE;
@@ -135,7 +135,7 @@ public class Dialog : MonoBehaviour
             }
 
             utaTMP_Text.text += u;
-            if (i % SEInterval == 0) audioSource.PlayOneShot(typeSE);
+            if (i % SEInterval == 0) audioSourseMoziokuri.PlayOneShot(typeSE);
             i++;
             yield return new WaitForSeconds(0.05f);
         }
@@ -165,7 +165,7 @@ public class Dialog : MonoBehaviour
             }
 
             yukiTMP_Text.text += y;
-            if (i % SEInterval == 0) audioSource.PlayOneShot(typeSE);
+            if (i % SEInterval == 0) audioSourseMoziokuri.PlayOneShot(typeSE);
             i++;
             yield return new WaitForSeconds(0.05f);
         }
@@ -222,7 +222,7 @@ public class Dialog : MonoBehaviour
     {
         logManager.Log(letter);
         yield return new WaitForSeconds(0.1f);
-        audioSource.PlayOneShot(keySE);
+        //audioSource.PlayOneShot(keySE);
         yield return new WaitForSeconds(1f);
         utaTMP_Text.text = "";
        uIManager.OpenUtaUI();
@@ -240,7 +240,7 @@ public class Dialog : MonoBehaviour
             }
 
             utaTMP_Text.text += a;
-            if (i % SEInterval == 0) audioSource.PlayOneShot(typeSE);
+            if (i % SEInterval == 0) audioSourseMoziokuri.PlayOneShot(typeSE);
             i++;
             yield return new WaitForSeconds(0.05f);
             isTyping = true;
@@ -276,7 +276,7 @@ public class Dialog : MonoBehaviour
             }
 
             utaTMP_Text.text += a;
-            if (i % SEInterval == 0) audioSource.PlayOneShot(typeSE);
+            if (i % SEInterval == 0) audioSourseMoziokuri.PlayOneShot(typeSE);
             i++;
             yield return new WaitForSeconds(0.05f);
             isTyping = true;
@@ -312,7 +312,7 @@ public class Dialog : MonoBehaviour
             }
 
             text.text += a;
-            if (i % SEInterval == 0) audioSource.PlayOneShot(typeSE);
+            if (i % SEInterval == 0) audioSourseMoziokuri.PlayOneShot(typeSE);
             i++;
             yield return new WaitForSeconds(0.05f);
 
@@ -348,7 +348,7 @@ public class Dialog : MonoBehaviour
             }
 
             text.text += a;
-            if (i % SEInterval == 0) audioSource.PlayOneShot(typeSE);
+            if (i % SEInterval == 0) audioSourseMoziokuri.PlayOneShot(typeSE);
             i++;
             yield return new WaitForSeconds(0.05f);
             isTyping = true;

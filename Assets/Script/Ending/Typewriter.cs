@@ -10,7 +10,7 @@ public class Typewriter : MonoBehaviour
     public float interval = 0.05f;
     public float lineBreakWait = 0.5f;   // © ‰üs‚Å~‚ß‚éŠÔ
     [SerializeField] int SEinterval;
-
+    public AudioSource audioSourceMoziokuri;
     public AudioSource audioSource;
     public AudioClip typeSE;
 
@@ -33,7 +33,7 @@ public class Typewriter : MonoBehaviour
             // SE Ä¶
             if (i>0 && typeSE != null && audioSource != null)
             {
-                if (i % SEinterval == 0) audioSource.PlayOneShot(typeSE);
+                if (i % SEinterval == 0) audioSourceMoziokuri.PlayOneShot(typeSE);
             }
 
             // š ‰üs‚È‚ç’Ç‰Á‚Å‘Ò‚Â

@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SnowSpawnerBlue : MonoBehaviour
@@ -7,17 +6,25 @@ public class SnowSpawnerBlue : MonoBehaviour
     [SerializeField] private GameObject snowPrefab;
     [SerializeField] private float respawnTime = 3f;
 
-    public void RespawnSnow(Vector3 position, Quaternion rotation)
+    // 再生成する位置をInspectorから設定
+    [SerializeField] private Vector3 respawnPosition;
+
+    // 再生成する回転をInspectorから設定
+    [SerializeField] private Vector3 respawnRotation;
+
+    public void RespawnSnow()
     {
-        StartCoroutine(RespawnCoroutine(position, rotation));
+        StartCoroutine(RespawnCoroutine());
     }
 
-    private IEnumerator RespawnCoroutine(
-        Vector3 position,
-        Quaternion rotation)
+    private IEnumerator RespawnCoroutine()
     {
         yield return new WaitForSeconds(respawnTime);
 
-        Instantiate(snowPrefab, position, rotation);
+        Instantiate(
+            snowPrefab,
+            respawnPosition,
+            Quaternion.Euler(respawnRotation)
+        );
     }
 }
