@@ -15,8 +15,8 @@ namespace Hi5_Interaction_Interface
         void OnTriggerEnter(Collider other)
         {
             // レイヤー判定
-            if ((hitLayers.value & (1 << other.gameObject.layer)) == 0)
-                return;
+            //if ((hitLayers.value & (1 << other.gameObject.layer)) == 0)
+               // return;
 
             // 振動
             if (isLeftHand)

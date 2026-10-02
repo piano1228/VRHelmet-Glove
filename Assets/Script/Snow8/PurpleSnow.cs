@@ -15,21 +15,22 @@ public class PurpleSnow : MonoBehaviour
         spawner = FindObjectOfType<SnowSpawnerPurple>();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
         if (!flag)
             return;
 
         flag = false;
 
-        ContactPoint contact = collision.contacts[0];
+        // 接触位置を取得
+        Vector3 contactPoint = other.ClosestPoint(transform.position);
 
         // SE
         if (destroySE != null)
         {
             AudioSource.PlayClipAtPoint(
                 destroySE,
-                contact.point,
+                contactPoint,
                 volume
             );
         }

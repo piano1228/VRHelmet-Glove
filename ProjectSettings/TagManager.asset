@@ -12,6 +12,7 @@ TagManager:
   - HouseWindow
   - Mouse
   - Hand
+  - LeftHand
   layers:
   - Default
   - TransparentFX

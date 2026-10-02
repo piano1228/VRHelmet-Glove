@@ -13,7 +13,7 @@ public class BlueSnow : MonoBehaviour
         spawner = FindObjectOfType<SnowSpawnerBlue>();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
         // Spawnerに再生成を依頼
         spawner.RespawnSnow();

@@ -15,39 +15,40 @@ public class WhiteSnow : MonoBehaviour
         spawner = FindObjectOfType<SnowSpawnerWhite>();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
+{
+    if (!flag)
+        return;
+
+    flag = false;
+
+    // 接触位置を取得
+    Vector3 contactPoint = other.ClosestPoint(transform.position);
+
+    // 雪の結晶エフェクトを生成
+    ParticleSystem effect = Instantiate(
+        snoweffectPrefab,
+        contactPoint,
+        Quaternion.identity
+    );
+
+    // 生成したエフェクトを0.1秒後に削除
+    Destroy(effect.gameObject, 0.1f);
+
+    // SE
+    if (destroySE != null)
     {
-        if (!flag)
-            return;
-
-        flag = false;
-
-        ContactPoint contact = collision.contacts[0];
-
-        // 雪の結晶エフェクトを生成
-        ParticleSystem effect = Instantiate(
-            snoweffectPrefab,
-            contact.point,
-            Quaternion.identity
+        AudioSource.PlayClipAtPoint(
+            destroySE,
+            contactPoint,
+            volume
         );
-
-        // 生成したエフェクトを0.1秒後に削除
-        Destroy(effect.gameObject, 0.1f);
-
-        // SE
-        if (destroySE != null)
-        {
-            AudioSource.PlayClipAtPoint(
-                destroySE,
-                contact.point,
-                volume
-            );
-        }
-
-        // Spawnerに再生成を依頼
-        spawner.RespawnSnow();
-
-        // 雪の結晶自体を削除
-        Destroy(gameObject, 0.001f);
     }
+
+    // Spawnerに再生成を依頼
+    spawner.RespawnSnow();
+
+    // 雪の結晶自体を削除
+    Destroy(gameObject, 0.001f);
+}
 }

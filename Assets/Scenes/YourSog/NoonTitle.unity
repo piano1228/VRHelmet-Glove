@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Enter
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
-  m_sharedMaterial: {fileID: -859636975422421200, guid: 95cb79083abc2fc47bac494b32a42c2b,
+  m_fontAsset: {fileID: 11400000, guid: 921f3637f796e5b49ae7cf016945b7d2, type: 2}
+  m_sharedMaterial: {fileID: 1477643273348285930, guid: 921f3637f796e5b49ae7cf016945b7d2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -462,8 +462,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Your Song
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95cb79083abc2fc47bac494b32a42c2b, type: 2}
-  m_sharedMaterial: {fileID: -859636975422421200, guid: 95cb79083abc2fc47bac494b32a42c2b,
+  m_fontAsset: {fileID: 11400000, guid: 921f3637f796e5b49ae7cf016945b7d2, type: 2}
+  m_sharedMaterial: {fileID: 1477643273348285930, guid: 921f3637f796e5b49ae7cf016945b7d2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1384,5 +1384,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

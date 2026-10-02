@@ -15,19 +15,20 @@ public class LightBlueSnow : MonoBehaviour
         spawner = FindObjectOfType<SnowSpawnerLightBlue>();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
         if (!flag)
             return;
 
         flag = false;
 
-        ContactPoint contact = collision.contacts[0];
+        // 接触位置を取得
+        Vector3 contactPoint = other.ClosestPoint(transform.position);
 
         // 雪の結晶エフェクトを生成
         ParticleSystem effect = Instantiate(
             snoweffectPrefab,
-            contact.point,
+            contactPoint,
             Quaternion.identity
         );
 
